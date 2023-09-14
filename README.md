@@ -4,7 +4,7 @@
 # Using
 
 ```python
-from PyAlphabet import AlphabetLetters
+from PyAlphabet.AlphabetLetters import AlphabetLetters
 
 alphabet_letters = AlphabetLetters("a", "z")
 print(alphabet_letters)
@@ -15,7 +15,7 @@ You can also add flags.
 
 
 ```python
-from PyAlphabet import AlphabetLetters
+from PyAlphabet.AlphabetLetters import AlphabetLetters
 
 alphabet_letters = AlphabetLetters("a", "z", flag_upper=False)
 print(alphabet_letters)
@@ -27,7 +27,7 @@ You can also disable the checkbox for lowercase letters.
 Return capital letters back to `flag_upper=True`
 
 ```python
-from PyAlphabet import AlphabetLetters
+from PyAlphabet.AlphabetLetters import AlphabetLetters
 
 alphabet_letters = AlphabetLetters("a", "z", flag_upper=True, flag_lower=False)
 print(alphabet_letters)
@@ -40,7 +40,7 @@ Consider the `flag_reflected` flag.
 By default, the flag_reflected flag is set to `False`, we will fix it to `True`:
 
 ```python
-from PyAlphabet import AlphabetLetters
+from PyAlphabet.AlphabetLetters import AlphabetLetters
 
 alphabet_letters = AlphabetLetters("a", "z", flag_upper=True, flag_lower=True, flag_reflected=True)
 print(alphabet_letters)
@@ -51,7 +51,7 @@ The last flag is flag_line
 By default, the flag_reflected flag is set to `False`, we will fix it to `True`:
 
 ```python
-from PyAlphabet import AlphabetLetters
+from PyAlphabet.AlphabetLetters import AlphabetLetters
 
 alphabet_letters = AlphabetLetters("a", "z", flag_upper=True, flag_lower=True, flag_reflected=False, flag_line=True)
 print(alphabet_letters)
